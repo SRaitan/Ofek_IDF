@@ -1,0 +1,26 @@
+<encryptor>
+    <directory>
+        <path>C:\Users\Jbt\Desktop\cipher\encrypt_files</path>
+        <type>encrypt</type>
+    </directory>
+    <file>
+        <path>C:\Users\Jbt\Desktop\cipher\other1.txt</path>
+        <type>encrypt</type>
+    </file>
+    <directory async="true">
+        <path>C:\Users\Jbt\Desktop\cipher\encrypt_filesAsync</path>
+        <type>encrypt</type>
+    </directory>
+    <directory>
+        <path>C:\Users\Jbt\Desktop\cipher\encrypt_files\encrypt</path>
+        <type>decrypt</type>
+    </directory>
+    <file>
+        <path>C:\Users\Jbt\Desktop\cipher\other1_encrypted.txt</path>
+        <type>decrypt</type>
+    </file>
+    <directory async="true">
+        <path>C:\Users\Jbt\Desktop\cipher\encrypt_filesAsync\encrypt</path>
+        <type>decrypt</type>
+    </directory>
+</encryptor>
